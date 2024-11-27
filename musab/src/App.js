@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import Greeting from './components/musab';
-const name = "musab";
+import Header from './components/header';
+import Content from './components/content';
+import Footer from './components/footer';
+
 function App() {
   return (
     <div className="App">
-      <h1>hello!{name}</h1>
+      <Header/>
       <Greeting/>
+      <Content/>
+      <Footer/>
     </div>
   );
 }

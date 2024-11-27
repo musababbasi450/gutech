@@ -1,0 +1,30 @@
+.header{
+font-size: 36px;       
+color: #4CAF50;        
+padding: 20px;         
+text-align: center;    
+font-family: 'Arial';
+background-color: black;
+}
+.greeting{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.content
+{
+    font-size: 30px;
+    padding: 40px;
+    color: #4CAF50;
+}
+.footer
+{
+    position: fixed;        
+            bottom: 10px;           
+            right: 10px;            
+            background-color: #333; 
+            color: white;           
+            padding: 10px 20px;    
+            font-size: 16px;      
+            border-radius: 5px; 
+}
