@@ -1,19 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Greeting from './components/musab';
-import Header from './components/header';
-import Content from './components/content';
-import Footer from './components/footer';
-
+import React from 'react';
+import profilecard from './components/profilecard';
 function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Greeting/>
-      <Content/>
-      <Footer/>
-    </div>
-  );
+return (
+<div>
+<h1>React Props Example</h1>
+{/* Passing props to the child component */}
+<profilecard name="John" age={25} />
+<profilecard name="Jane" age={30} />
+</div>
+);
 }
-
-export default App;
+export default App
